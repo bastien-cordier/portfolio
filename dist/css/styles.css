@@ -4551,6 +4551,7 @@ button.bg-dark:focus {
 @media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important;
+    padding-top: 15px;
   }
 
   .text-lg-right {
