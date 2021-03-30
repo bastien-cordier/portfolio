@@ -1,11 +1,26 @@
 import React from 'react'
+import './accueil.css'
 
-function accueil() {
+function Accueil() {
     return (
-        <section id='accueil'>
-            
+        <section className="masthead" id="accueil">
+            <div className="container">
+                    <div className="masthead-heading">Portfolio Bastien CORDIER</div>
+                    <div className="masthead-subheading">Développeur Web <span
+                        className="txt-rotate"
+                        data-period="2100"
+                        data-rotate='[ "Front-End.", "Back-End.", "de qualité.", "recommandé par la NASA." ]'></span>
+                    </div>
+                    <a href="#brands" className="button js-scrollTo">
+                        <div className="scroll-downs">
+                            <div className="mousey">
+                                <div className="scroller"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
         </section>
     )
 }
 
-export default accueil
+export default Accueil

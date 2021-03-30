@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import './Script'
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Components/Header/header'
+import Accueil from './Components/Accueil/accueil'
 
 function App() {
   return (
-    <Header/>
+    <Fragment>
+      <Header />
+        <Accueil/>
+    </Fragment>
   );
 }
 
