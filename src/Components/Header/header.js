@@ -7,24 +7,23 @@ function Header() {
     <Fragment>
       <Navbar
         collapseOnSelect
-        expand="md"
-        bg="#161616"
+        expand="lg"
         sticky="top"
         variant="dark"
       >
         <Navbar.Brand>
-          <a href="/" className="title-portfolio nav-link">
+          <a href="#accueil" className="title-portfolio nav-link js-scrollTo">
             Portfolio Bastien CORDIER
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/nouveautes">À propos</Nav.Link>
-            <Nav.Link href="/nouveautes">Parcours</Nav.Link>
-            <Nav.Link href="/nouveautes">Formations</Nav.Link>
-            <Nav.Link href="/nouveautes">Compétences</Nav.Link>
-            <Nav.Link href="/nouveautes">Contact</Nav.Link>
+            <Nav.Link href="#about" className="js-scrollTo">À propos</Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">Parcours</Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">Formations</Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">Compétences</Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

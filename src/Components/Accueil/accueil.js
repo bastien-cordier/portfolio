@@ -11,7 +11,7 @@ function Accueil() {
                         data-period="2100"
                         data-rotate='[ "Front-End.", "Back-End.", "de qualité.", "recommandé par la NASA." ]'></span>
                     </div>
-                    <a href="#brands" className="button js-scrollTo">
+                    <a href="#about" className="button js-scrollTo">
                         <div className="scroll-downs">
                             <div className="mousey">
                                 <div className="scroller"></div>
