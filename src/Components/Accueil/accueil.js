@@ -5,7 +5,7 @@ function Accueil() {
     return (
         <section className="masthead" id="accueil">
             <div className="container">
-                    <div className="masthead-heading">Portfolio Bastien CORDIER</div>
+                    <div className="masthead-heading">Bastien CORDIER</div>
                     <div className="masthead-subheading">Développeur Web <span
                         className="txt-rotate"
                         data-period="2100"

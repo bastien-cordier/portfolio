@@ -7,15 +7,15 @@
   }
   
   .title-portfolio {
-    font-size: 24px !important;
-    font-family: "Oswald", sans-serif;
+    font-size: 20px !important;
+    font-family: 'Roboto Mono', monospace;
   }
   
   a.nav-link {
     position: relative;
     color: #fff;
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
     letter-spacing: 0.0625em;
     text-decoration: none !important;
   }
