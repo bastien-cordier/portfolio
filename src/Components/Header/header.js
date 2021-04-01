@@ -17,11 +17,11 @@ function Header() {
             <Nav.Link href="#about" className="js-scrollTo">
               À propos
             </Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">
-              Parcours
-            </Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">
+            <Nav.Link href="#formation" className="js-scrollTo">
               Formations
+            </Nav.Link>
+            <Nav.Link href="#parcours" className="js-scrollTo">
+              Parcours
             </Nav.Link>
             <Nav.Link href="/nouveautes" className="js-scrollTo">
               Compétences

@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header/header";
 import Accueil from "./Components/Accueil/accueil";
 import About from "./Components/Apropos/about";
+import Formation from "./Components/Formation/formation";
+import Parcours from "./Components/Parcours/parcours";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Accueil />
       <About />
+      <Formation />
+      <Parcours />
     </Fragment>
   );
 }
