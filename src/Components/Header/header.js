@@ -1,16 +1,11 @@
 import React, { Fragment } from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import './header.css'
+import "./header.css";
 
 function Header() {
   return (
     <Fragment>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        sticky="top"
-        variant="dark"
-      >
+      <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Navbar.Brand>
           <a href="#accueil" className="title-portfolio nav-link js-scrollTo">
             Portfolio Bastien CORDIER
@@ -19,11 +14,21 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about" className="js-scrollTo">À propos</Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">Parcours</Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">Formations</Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">Compétences</Nav.Link>
-            <Nav.Link href="/nouveautes" className="js-scrollTo">Contact</Nav.Link>
+            <Nav.Link href="#about" className="js-scrollTo">
+              À propos
+            </Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">
+              Parcours
+            </Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">
+              Formations
+            </Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">
+              Compétences
+            </Nav.Link>
+            <Nav.Link href="/nouveautes" className="js-scrollTo">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
