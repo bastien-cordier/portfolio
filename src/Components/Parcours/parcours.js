@@ -21,7 +21,7 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="assets/companies/ercom.png" alt="" />
+                    <img src="assets/companies/ercom.png" alt="Logo ERCOM" />
                   </span>
                   <span class="username">ERCOM Group Thales</span>
                 </div>
@@ -38,12 +38,13 @@ function parcours() {
                   </h6>
                   <ul>
                     <li>
-                      Développement en autonomie du site ERCOM et de son
+                      Développement en autonomie du site{" "}
+                      <a href="https://www.ercom.fr">ERCOM</a> et de son
                       intranet.
                     </li>
                     <li>
                       Participation à la refonte graphique et technique du site
-                      internet ERCOM.
+                      internet <a href="https://www.ercom.fr">ERCOM</a>.
                     </li>
                     <li>Utilisation des CMS WordPress puis Drupal.</li>
                   </ul>
@@ -76,7 +77,10 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="assets/companies/stockpro.png" alt="" />
+                    <img
+                      src="assets/companies/stockpro.png"
+                      alt="Logo StockPro"
+                    />
                   </span>
                   <span class="username">STOCKPRO SAS</span>
                 </div>
@@ -123,7 +127,7 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="assets/companies/2bo&co.png" alt="" />
+                    <img src="assets/companies/2bo&co.png" alt="Logo 2BO&CO" />
                   </span>
                   <span class="username">2BO&CO</span>
                 </div>
@@ -182,7 +186,10 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="assets/companies/bouygues-it.png" alt="" />
+                    <img
+                      src="assets/companies/bouygues-it.png"
+                      alt="Logo BOUYGUES IT"
+                    />
                   </span>
                   <span class="username">STRUCTIS Group BOUYGUES</span>
                 </div>
