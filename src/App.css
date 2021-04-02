@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
-section{
+section {
   display: block;
 }
 
-.page-section{
+.page-section {
   padding: 4rem;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
 }

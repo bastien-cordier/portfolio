@@ -1,9 +1,62 @@
 /* STYLE SECTION PARCOURS */
-
 #parcours .container {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
+#parcours .icons {
+  font-size: 25px;
+}
+
+.space-content {
+  padding-left: 10px;
+}
+
+/* ICONS */
+.fa-wordpress {
+  color: #217195;
+}
+
+.fa-drupal {
+  color: #009cde;
+}
+
+.fa-html5 {
+  color: #e44d25;
+}
+
+.fa-css3-alt {
+  color: #3699d6;
+}
+
+.fa-js-square {
+  color: #f7df1c;
+}
+
+.fa-php {
+  color: #8993be;
+}
+
+.fa-symfony {
+  color: #6b1c22;
+}
+
+.fa-swift {
+  color: #f85420;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.fa-database {
+  color: #e48d01;
+}
+
+.fa-java {
+  color: #ea2c2e;
+}
+
+/* TIMELINE */
 .timeline {
   list-style-type: none;
   margin: 0;
@@ -14,8 +67,8 @@
 .timeline:before {
   content: "";
   position: absolute;
-  top: 5px;
-  bottom: 5px;
+  top: 50px;
+  bottom: 325px;
   width: 5px;
   background: #2d353c;
   left: 20%;
@@ -138,7 +191,7 @@
 .timeline-content {
   letter-spacing: 0.25px;
   line-height: 18px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .timeline-content:after,
@@ -165,73 +218,4 @@
 .timeline-footer a:not(.btn):focus,
 .timeline-footer a:not(.btn):hover {
   color: #2d353c;
-}
-
-.timeline-likes {
-  color: #6d767f;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.timeline-likes .stats-right {
-  float: right;
-}
-
-.timeline-likes .stats-total {
-  display: inline-block;
-  line-height: 20px;
-}
-
-.timeline-likes .stats-icon {
-  float: left;
-  margin-right: 5px;
-  font-size: 9px;
-}
-
-.timeline-likes .stats-icon + .stats-icon {
-  margin-left: -2px;
-}
-
-.timeline-likes .stats-text {
-  line-height: 20px;
-}
-
-.timeline-likes .stats-text + .stats-text {
-  margin-left: 15px;
-}
-
-.timeline-comment-box {
-  background: #f2f3f4;
-  margin-left: -25px;
-  margin-right: -25px;
-  padding: 20px 25px;
-}
-
-.timeline-comment-box .user {
-  float: left;
-  width: 34px;
-  height: 34px;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.timeline-comment-box .user img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.timeline-comment-box .user + .input {
-  margin-left: 44px;
-}
-
-.lead {
-  margin-bottom: 20px;
-  font-size: 21px;
-  font-weight: 300;
-  line-height: 1.4;
-}
-
-.text-danger,
-.text-red {
-  color: #ff5b57 !important;
 }

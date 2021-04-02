@@ -21,18 +21,20 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="assets/ercom.png" alt="" />
+                    <img src="assets/companies/ercom.png" alt="" />
                   </span>
                   <span class="username">ERCOM Group Thales</span>
                 </div>
                 <div className="timeline-content">
                   <h5>
-                    <i class="fa fa-briefcase text-success fa-fw" />
-                    Développeur Web Junior
+                    <i className="fa fa-briefcase text-secondary fa-fw" />
+                    <span className="space-content">
+                      Développeur Web Junior
+                    </span>
                   </h5>
                   <h6>
-                    <i class="fa fa-map-marker text-danger fa-fw" />
-                    Vélizy-Villacoublay
+                    <i className="fa fa-map-marker text-danger fa-fw" />
+                    <span className="space-content">Vélizy-Villacoublay</span>
                   </h6>
                   <ul>
                     <li>
@@ -45,103 +47,182 @@ function parcours() {
                     </li>
                     <li>Utilisation des CMS WordPress puis Drupal.</li>
                   </ul>
+                  <br />
+                  <div className="timeline-footer">
+                    <h6>
+                      Technos utilisées :{" "}
+                      <span className="icons">
+                        <i className="fab fa-wordpress" />
+                        <i className="fab fa-drupal space-content" />
+                        <i className="fab fa-html5 space-content" />
+                        <i className="fab fa-css3-alt space-content" />
+                        <i className="fab fa-js-square space-content" />
+                        <i className="fab fa-php space-content" />
+                        <i className="fab fa-symfony space-content" />
+                      </span>
+                    </h6>
+                  </div>
                 </div>
               </div>
             </li>
             <li>
-              <div class="timeline-time">
-                <span class="date">24 February 2014</span>
-                <span class="time">08:17</span>
+              <div className="timeline-time">
+                <span className="date">Alternance 1 semaine / 1 semaine</span>
+                <span className="time">2019 - 2020</span>
               </div>
-              <div class="timeline-icon">
+              <div className="timeline-icon">
                 <a href="/">&nbsp;</a>
               </div>
-              <div class="timeline-body">
-                <div class="timeline-header">
+              <div className="timeline-body">
+                <div className="timeline-header">
                   <span className="userimage">
-                    <img
-                      src="https://bootdey.com/img/Content/avatar/avatar7.png"
-                      alt=""
-                    />
+                    <img src="assets/companies/stockpro.png" alt="" />
                   </span>
-                  <span class="username">Richard Leong</span>
-                  <span class="pull-right text-muted">1,282 Views</span>
+                  <span class="username">STOCKPRO SAS</span>
                 </div>
-                <div class="timeline-content">
-                  <p class="lead">
-                    <i class="fa fa-quote-left fa-fw pull-left"></i>
-                    Quisque sed varius nisl. Nulla facilisi. Phasellus consequat
-                    sapien sit amet nibh molestie placerat. Donec nulla quam,
-                    ullamcorper ut velit vitae, lobortis condimentum magna.
-                    Suspendisse mollis in sem vel mollis.
-                    <i class="fa fa-quote-right fa-fw pull-right"></i>
-                  </p>
-                </div>
-                <div class="timeline-footer">
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share
-                  </a>
+                <div className="timeline-content">
+                  <h5>
+                    <i className="fa fa-briefcase text-secondary fa-fw" />
+                    <span className="space-content">
+                      Développeur Mobile Junior et testeur QA
+                    </span>
+                  </h5>
+                  <h6>
+                    <i className="fa fa-map-marker text-danger fa-fw" />
+                    <span className="space-content">Paris</span>
+                  </h6>
+                  <ul>
+                    <li>
+                      Participation au développement d'une application mobile
+                      pour la gestion de stock des entreprises du BTP.
+                    </li>
+                    <li>Tests QA de l'application.</li>
+                    <li>Utilisation de Swift iOS.</li>
+                    <li>Appels de prospection / Rendez-vous clients.</li>
+                  </ul>
+                  <br />
+                  <div className="timeline-footer">
+                    <h6>
+                      Technos utilisées :{" "}
+                      <span className="icons">
+                        <i className="fab fa-swift" />
+                      </span>
+                    </h6>
+                  </div>
                 </div>
               </div>
             </li>
             <li>
-              <div class="timeline-time">
-                <span class="date">10 January 2014</span>
-                <span class="time">20:43</span>
+              <div className="timeline-time">
+                <span className="date">Alternance 1 semaine / 1 semaine</span>
+                <span className="time">2018 - 2019</span>
               </div>
-              <div class="timeline-icon">
+              <div className="timeline-icon">
                 <a href="/">&nbsp;</a>
               </div>
-              <div class="timeline-body">
-                <div class="timeline-header">
+              <div className="timeline-body">
+                <div className="timeline-header">
                   <span className="userimage">
-                    <img src="" alt="" />
+                    <img src="assets/companies/2bo&co.png" alt="" />
                   </span>
-                  <span class="username">Lelouch Wong</span>
-                  <span class="pull-right text-muted">1,021,282 Views</span>
+                  <span class="username">2BO&CO</span>
                 </div>
-                <div class="timeline-content">
-                  <h4 class="template-title">
-                    <i class="fa fa-map-marker text-danger fa-fw"></i>
-                    795 Folsom Ave, Suite 600 San Francisco, CA 94107
-                  </h4>
-                  <p>
-                    In hac habitasse platea dictumst. Pellentesque bibendum id
-                    sem nec faucibus. Maecenas molestie, augue vel accumsan
-                    rutrum, massa mi rutrum odio, id luctus mauris nibh ut leo.
-                  </p>
-                  <p class="m-t-20">
-                    <img
-                      src="https://bootdey.com/img/Content/avatar/avatar7.png"
-                      alt=""
-                    />
-                  </p>
-                </div>
-                <div class="timeline-footer">
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share
-                  </a>
+                <div className="timeline-content">
+                  <h5>
+                    <i className="fa fa-briefcase text-secondary fa-fw" />
+                    <span className="space-content">
+                      Intégrateur Web Junior
+                    </span>
+                  </h5>
+                  <h6>
+                    <i className="fa fa-map-marker text-danger fa-fw" />
+                    <span className="space-content">Paris</span>
+                  </h6>
+                  <ul>
+                    <li>
+                      Création de plusieurs sites web pour le groupe "Bistrots
+                      pas parisiens".
+                    </li>
+                    <li>
+                      Utilisations de nombreux langages de développement.
+                      (HTML5/CSS3, JavaScript) et d'un framework
+                      intra-entreprise.
+                    </li>
+                    <li>
+                      Mise en page, mise à jour de contenu, traitement de la
+                      base de données, animations d'éléments en JavaScript.
+                    </li>
+                    <li>Audits sites internet.</li>
+                  </ul>
+                  <br />
+                  <div className="timeline-footer">
+                    <h6>
+                      Technos utilisées :{" "}
+                      <span className="icons">
+                        <i className="fab fa-wordpress" />
+                        <i className="fab fa-html5 space-content" />
+                        <i className="fab fa-css3-alt space-content" />
+                        <i className="fab fa-bootstrap space-content" />
+                        <i className="fab fa-php space-content" />
+                        <i className="fas fa-database space-content" />
+                      </span>
+                    </h6>
+                  </div>
                 </div>
               </div>
             </li>
             <li>
-              <div class="timeline-icon">
+              <div className="timeline-time">
+                <span className="date">Stage 6 semaines</span>
+                <span className="time">Mai - Juin 2018</span>
+              </div>
+              <div className="timeline-icon">
                 <a href="/">&nbsp;</a>
               </div>
-
-              <div class="timeline-body">Loading...</div>
+              <div className="timeline-body">
+                <div className="timeline-header">
+                  <span className="userimage">
+                    <img src="assets/companies/bouygues-it.png" alt="" />
+                  </span>
+                  <span class="username">STRUCTIS Group BOUYGUES</span>
+                </div>
+                <div className="timeline-content">
+                  <h5>
+                    <i className="fa fa-briefcase text-secondary fa-fw" />
+                    <span className="space-content">
+                      Développeur d'applications Web
+                    </span>
+                  </h5>
+                  <h6>
+                    <i className="fa fa-map-marker text-danger fa-fw" />
+                    <span className="space-content">Guyancourt</span>
+                  </h6>
+                  <ul>
+                    <li>
+                      Création d'une application web pour gérer le flux des
+                      visiteurs sur le lieu de l'entreprise.
+                    </li>
+                    <li>
+                      Formulaires, connexion à la base de données, lecture d'un
+                      QR Code.
+                    </li>
+                    <li>Etude de la technologie QR Code</li>
+                  </ul>
+                  <br />
+                  <div className="timeline-footer">
+                    <h6>
+                      Technos utilisées :{" "}
+                      <span className="icons">
+                        <i className="fab fa-html5 space-content" />
+                        <i className="fab fa-css3-alt space-content" />
+                        <i className="fab fa-php space-content" />
+                        <i className="fab fa-java space-content" />
+                        <i className="fas fa-qrcode space-content" />
+                      </span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </Container>
