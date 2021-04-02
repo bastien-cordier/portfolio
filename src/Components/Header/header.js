@@ -12,13 +12,16 @@ function Header() {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-between"
+        >
           <Nav className="mr-auto">
             <Nav.Link href="#about" className="js-scrollTo">
               À propos
             </Nav.Link>
             <Nav.Link href="#formation" className="js-scrollTo">
-              Formations
+              Formation
             </Nav.Link>
             <Nav.Link href="#parcours" className="js-scrollTo">
               Parcours

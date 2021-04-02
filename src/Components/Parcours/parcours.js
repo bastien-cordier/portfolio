@@ -12,8 +12,8 @@ function parcours() {
           <ul className="timeline">
             <li>
               <div className="timeline-time">
-                <span className="date">Aujourd'hui</span>
-                <span className="time">2021</span>
+                <span className="date">Alternance 3 semaines / mois</span>
+                <span className="time">2020 - 2022</span>
               </div>
               <div className="timeline-icon">
                 <a href="/">&nbsp;</a>
@@ -21,67 +21,30 @@ function parcours() {
               <div className="timeline-body">
                 <div className="timeline-header">
                   <span className="userimage">
-                    <img src="" alt="" />
+                    <img src="assets/ercom.png" alt="" />
                   </span>
-                  <span class="username">
-                    <a href="/">John Smith</a> <small></small>
-                  </span>
-                  <span class="pull-right text-muted">18 Views</span>
+                  <span class="username">ERCOM Group Thales</span>
                 </div>
                 <div className="timeline-content">
-                  <p>Lorem ipsum</p>
-                </div>
-                <div className="timeline-likes">
-                  <div className="stats-right">
-                    <span class="stats-text">259 Shares</span>
-                    <span class="stats-text">21 Comments</span>
-                  </div>
-                  <div className="stats">
-                    <span class="fa-stack fa-fw stats-icon">
-                      <i class="fa fa-circle fa-stack-2x text-danger"></i>
-                      <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
-                    </span>
-                    <span class="fa-stack fa-fw stats-icon">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <span class="stats-total">4.3k</span>
-                  </div>
-                </div>
-                <div className="timeline-footer">
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> Like
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-comments fa-fw fa-lg m-r-3"></i> Comment
-                  </a>
-                  <a href="/" class="m-r-15 text-inverse-lighter">
-                    <i class="fa fa-share fa-fw fa-lg m-r-3"></i> Share
-                  </a>
-                </div>
-                <div className="timeline-comment-box">
-                  <div className="user">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar6.png"></img>
-                  </div>
-                  <div className="input">
-                    <form action="">
-                      <div className="input-group">
-                        <input
-                          type="text"
-                          className="form-control rounded-corner"
-                          placeholder="Write a comment..."
-                        />
-                        <span class="input-group-btn p-l-10">
-                          <button
-                            class="btn btn-primary f-s-12 rounded-corner"
-                            type="button"
-                          >
-                            Comment
-                          </button>
-                        </span>
-                      </div>
-                    </form>
-                  </div>
+                  <h5>
+                    <i class="fa fa-briefcase text-success fa-fw" />
+                    Développeur Web Junior
+                  </h5>
+                  <h6>
+                    <i class="fa fa-map-marker text-danger fa-fw" />
+                    Vélizy-Villacoublay
+                  </h6>
+                  <ul>
+                    <li>
+                      Développement en autonomie du site ERCOM et de son
+                      intranet.
+                    </li>
+                    <li>
+                      Participation à la refonte graphique et technique du site
+                      internet ERCOM.
+                    </li>
+                    <li>Utilisation des CMS WordPress puis Drupal.</li>
+                  </ul>
                 </div>
               </div>
             </li>
@@ -96,7 +59,10 @@ function parcours() {
               <div class="timeline-body">
                 <div class="timeline-header">
                   <span className="userimage">
-                    <img src="" alt="" />
+                    <img
+                      src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                      alt=""
+                    />
                   </span>
                   <span class="username">Richard Leong</span>
                   <span class="pull-right text-muted">1,282 Views</span>
