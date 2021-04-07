@@ -21,7 +21,7 @@ function skills() {
                     <Nav.Link eventKey="second">UX /UI</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Environnement</Nav.Link>
+                    <Nav.Link eventKey="third">OS</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -53,9 +53,32 @@ function skills() {
                       alt="logoFigma"
                       className="logo"
                     />
+                    <span className="space-content" />
+                    <img
+                      src="assets/tabs/canva-logo.png"
+                      alt="logoCanva"
+                      className="logo"
+                    />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    Les soirées de samedi soir qq fois ça me déçoit
+                    <span className="space-content" />
+                    <img
+                      src="assets/tabs/macos.png"
+                      alt="logoCanva"
+                      className="logo"
+                    />
+                    <span className="space-content" />
+                    <img
+                      src="assets/tabs/windows.png"
+                      alt="logoCanva"
+                      className="logo"
+                    />
+                    <span className="space-content" />
+                    <img
+                      src="assets/tabs/ubuntu.png"
+                      alt="logoCanva"
+                      className="logo"
+                    />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
