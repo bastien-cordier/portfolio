@@ -51,7 +51,7 @@ function parcours() {
                   <br />
                   <div className="timeline-footer">
                     <h6>
-                      Technos utilisées :{" "}
+                      Technologies utilisées :{" "}
                       <span className="icons">
                         <i className="fab fa-wordpress" />
                         <i className="fab fa-drupal space-content" />
@@ -107,7 +107,7 @@ function parcours() {
                   <br />
                   <div className="timeline-footer">
                     <h6>
-                      Technos utilisées :{" "}
+                      Technologies utilisées :{" "}
                       <span className="icons">
                         <i className="fab fa-swift" />
                       </span>
@@ -161,7 +161,7 @@ function parcours() {
                   <br />
                   <div className="timeline-footer">
                     <h6>
-                      Technos utilisées :{" "}
+                      Technologies utilisées :{" "}
                       <span className="icons">
                         <i className="fab fa-wordpress" />
                         <i className="fab fa-html5 space-content" />
@@ -218,7 +218,7 @@ function parcours() {
                   <br />
                   <div className="timeline-footer">
                     <h6>
-                      Technos utilisées :{" "}
+                      Technologies utilisées :{" "}
                       <span className="icons">
                         <i className="fab fa-html5 space-content" />
                         <i className="fab fa-css3-alt space-content" />

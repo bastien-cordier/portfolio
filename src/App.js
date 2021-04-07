@@ -7,6 +7,7 @@ import Accueil from "./Components/Accueil/accueil";
 import About from "./Components/Apropos/about";
 import Formation from "./Components/Formation/formation";
 import Parcours from "./Components/Parcours/parcours";
+import Skills from "./Components/Skills/skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Formation />
       <Parcours />
+      <Skills />
     </Fragment>
   );
 }
