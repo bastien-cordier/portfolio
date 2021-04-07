@@ -1,1 +1,39 @@
 /* STYLE PAGE SKILLS */
+
+#skills .tabs {
+  padding-top: 50px;
+}
+
+#skills .logo {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+#skills .space-content {
+  padding-left: 60px;
+}
+
+#skills .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f8f9fa;
+}
+
+#skills a.nav-link {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills a.nav-link:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+#skills a.nav-link:hover:before {
+  visibility: none;
+  transform: scaleX(0);
+}

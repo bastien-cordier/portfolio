@@ -56,6 +56,14 @@
   color: #ea2c2e;
 }
 
+.fa-react {
+  color: #61dafb;
+}
+
+.fa-vuejs {
+  color: #3fb27f;
+}
+
 /* TIMELINE */
 .timeline {
   list-style-type: none;
