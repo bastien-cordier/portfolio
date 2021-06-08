@@ -7,40 +7,49 @@ function skills() {
   return (
     <Fragment>
       <section id="skills" className="page-section">
-        <h2 className="text-uppercase text-center">Mes compétences</h2>
+        <h2 className="text-uppercase text-center">Mes_c0mpétences</h2>
         <br />
         <Container className="tabs">
           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
             <Row>
-              <Col sm={3}>
+              <Col sm></Col>
+              <Col sm={2}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Développement</Nav.Link>
+                    <Nav.Link eventKey="first">Programmation</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">UX /UI</Nav.Link>
+                    <Nav.Link eventKey="second">Frameworks</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">OS</Nav.Link>
+                    <Nav.Link eventKey="third">CMS</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="fourth">UX /UI</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="fifth">OS</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
-              <Col sm={9}>
-                <Tab.Content>
+              <Col sm={8}>
+                <Tab.Content className="logos-tabs">
                   <Tab.Pane eventKey="first">
-                    <i className="fab fa-wordpress fa-4x space-content" />
-                    <i className="fab fa-drupal fa-4x space-content" />
                     <i className="fab fa-html5 fa-4x space-content" />
                     <i className="fab fa-css3-alt fa-4x space-content" />
-                    <i className="fab fa-bootstrap fa-4x space-content" />
                     <i className="fab fa-php fa-4x space-content" />
-                    <br />
-                    <br />
                     <i className="fab fa-js-square fa-4x space-content" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="second">
+                    <i className="fab fa-bootstrap fa-4x space-content" />
                     <i className="fab fa-react fa-4x space-content" />
                     <i className="fab fa-vuejs fa-4x space-content" />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="second">
+                  <Tab.Pane eventKey="third">
+                    <i className="fab fa-wordpress fa-4x space-content" />
+                    <i className="fab fa-drupal fa-4x space-content" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="fourth">
                     <span className="space-content" />
                     <img
                       src="assets/tabs/adobexd.svg"
@@ -60,7 +69,7 @@ function skills() {
                       className="logo"
                     />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="third">
+                  <Tab.Pane eventKey="fifth">
                     <span className="space-content" />
                     <img
                       src="assets/tabs/macos.png"

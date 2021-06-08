@@ -1,5 +1,11 @@
 /* STYLE PAGE SKILLS */
 
+#skills {
+  background-color: #161616;
+  font-family: "Roboto Mono", monospace;
+  color: #f8f9fa;
+}
+
 #skills .tabs {
   padding-top: 50px;
 }
@@ -9,20 +15,24 @@
   max-height: 70px;
 }
 
+#skills .logos-tabs {
+  padding: 50px 0px 0px 60px;
+}
+
 #skills .space-content {
   padding-left: 60px;
 }
 
 #skills .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #f8f9fa;
+  background-color: #222222;
 }
 
 #skills a.nav-link {
-  color: #000;
+  color: #f8f9fa;
   text-decoration: none;
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 #skills a.nav-link:before {
