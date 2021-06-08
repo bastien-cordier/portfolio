@@ -1,4 +1,10 @@
 /* STYLE SECTION PARCOURS */
+
+#parcours h2 {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
 #parcours .container {
   padding-top: 10px;
 }
@@ -106,12 +112,15 @@
 .timeline .timeline-time .date {
   line-height: 16px;
   font-size: 12px;
+  font-family: "Roboto Mono", monospace;
+  color: #f8f9fa;
 }
 
 .timeline .timeline-time .time {
   line-height: 24px;
   font-size: 20px;
-  color: #242a30;
+  font-family: "Roboto Mono", monospace;
+  color: #f8f9fa;
 }
 
 .timeline .timeline-icon {

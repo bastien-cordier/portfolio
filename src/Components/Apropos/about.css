@@ -1,11 +1,53 @@
 /* STYLE SECTION À PROPOS */
 
+#about h2 {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+.bg-sombre {
+  background-color: #101010;
+}
+
 .aboutme {
-  padding-top: 60px;
+  padding-top: 30px;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+#about h3 {
+  padding-top: 35px;
 }
 
 .photo-profil {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0px;
+  width: 22rem;
+  height: 20rem;
+}
+
+a.button-about {
+  position: relative;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  letter-spacing: 0.0625em;
+  text-decoration: none !important;
+}
+
+a.button-about:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.button-about:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
 }

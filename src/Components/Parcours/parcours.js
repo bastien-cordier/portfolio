@@ -5,14 +5,14 @@ import Container from "react-bootstrap/Container";
 function parcours() {
   return (
     <Fragment>
-      <section id="parcours" className="page-section bg-light">
-        <h2 className="text-uppercase text-center">Mon parcours</h2>
+      <section id="parcours" className="page-section bg-sombre">
+        <h2 className="text-uppercase text-center">M0n_parc0urs</h2>
         <br />
         <Container>
           <ul className="timeline">
             <li>
               <div className="timeline-time">
-                <span className="date">Alternance 3 semaines / mois</span>
+                <span className="date">Alternant 3 semaines / mois</span>
                 <span className="time">2020 - 2022</span>
               </div>
               <div className="timeline-icon">
@@ -68,7 +68,7 @@ function parcours() {
             </li>
             <li>
               <div className="timeline-time">
-                <span className="date">Alternance 1 semaine / 1 semaine</span>
+                <span className="date">Alternant 2 semaines / mois</span>
                 <span className="time">2019 - 2020</span>
               </div>
               <div className="timeline-icon">
@@ -118,7 +118,7 @@ function parcours() {
             </li>
             <li>
               <div className="timeline-time">
-                <span className="date">Alternance 1 semaine / 1 semaine</span>
+                <span className="date">Alternant 2 semaines / mois</span>
                 <span className="time">2018 - 2019</span>
               </div>
               <div className="timeline-icon">

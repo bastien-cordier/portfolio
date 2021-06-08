@@ -1,6 +1,12 @@
 /* STYLE HEADER */
 
 .navbar {
+  height: 5000px;
+  width: 5%;
+  background-color: #161616;
+}
+
+/* .navbar {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #161616;
@@ -57,4 +63,4 @@ a.nav-link:hover:before {
     visibility: none;
     transform: scaleX(0);
   }
-}
+} */

@@ -8,15 +8,15 @@ import Image from "react-bootstrap/Image";
 function About() {
   return (
     <Fragment>
-      <section id="about" className="page-section bg-light">
+      <section id="about" className="page-section bg-sombre">
         <Container>
-          <h2 className="text-uppercase text-center">Qui suis-je ?</h2>
+          <h2 className="text-center">wh0amI ?</h2>
 
           <Row className="aboutme">
             <Col md={5}>
               <Image
                 className="photo-profil"
-                src="assets/photoprofil.JPG"
+                src="assets/profil-memoji.png"
                 alt="Photo Bastien CORDIER"
                 roundedCircle
               />

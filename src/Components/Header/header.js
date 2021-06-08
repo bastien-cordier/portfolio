@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-import { Nav, Navbar } from "react-bootstrap";
+// import { Nav, Navbar } from "react-bootstrap";
 import "./header.css";
 
 function Header() {
   return (
     <Fragment>
-      <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
+      {/* <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Navbar.Brand>
           <a href="#accueil" className="title-portfolio nav-link js-scrollTo">
             Portfolio Bastien CORDIER
@@ -34,7 +34,11 @@ function Header() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> */}
+
+      <nav className="navbar">
+        <h4>Portfolio</h4>
+      </nav>
     </Fragment>
   );
 }
