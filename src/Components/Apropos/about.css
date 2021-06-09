@@ -10,26 +10,76 @@
 }
 
 .aboutme {
-  padding-top: 30px;
-  font-family: "Roboto Mono", monospace;
-  color: #fff;
+  padding-top: 60px;
 }
 
-#about h3 {
-  padding-top: 35px;
+img.photo-profil.rounded-circle {
+  margin-block-start: 10px;
+  margin-inline-start: 50px;
 }
-
 .photo-profil {
-  padding-bottom: 0px;
-  width: 22rem;
-  height: 20rem;
+  width: 16rem;
+  height: 16rem;
+  border: 12px solid #202020;
+  border-radius: 100%;
 }
 
+/* MESSAGE IOS */
+#about .text {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .iOSMessage {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#about .intro {
+  align-items: flex-start;
+}
+
+#about .intro .iOSMessage {
+  margin-right: 25%;
+  color: #fff;
+  background-color: #0b93f6;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+#about .intro .iOSMessage.presentation:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: #0b93f6;
+  border-bottom-right-radius: 15px;
+}
+
+#about .intro .iOSMessage.presentation:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: #101010;
+  border-bottom-right-radius: 10px;
+}
+
+/* BOUTON TELECHARGER CV */
 a.button-about {
   position: relative;
   color: #fff;
   font-family: "Roboto Mono", monospace;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.0625em;
   text-decoration: none !important;
 }

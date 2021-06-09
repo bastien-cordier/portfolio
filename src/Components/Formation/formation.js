@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
+import "./formation.css";
 
 function formation() {
   return (
     <Fragment>
-      <section className="page-section" id="formation">
-        <h2 className="text-center text-uppercase">Ma Formation</h2>
+      <section id="formation" className="page-section">
+        <h2 className="text-center text-uppercase">Ma_F0rmati0n</h2>
       </section>
     </Fragment>
   );
