@@ -5,8 +5,8 @@
   color: #fff;
 }
 
-.bg-sombre {
-  background-color: #101010;
+.bg-about {
+  background-image: url("../../Assets/about-background.png");
 }
 
 .aboutme {

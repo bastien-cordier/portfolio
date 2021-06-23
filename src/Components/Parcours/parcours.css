@@ -9,6 +9,10 @@
   padding-top: 10px;
 }
 
+.bg-sombre {
+  background-color: #101010;
+}
+
 #parcours .icons {
   font-size: 25px;
 }
@@ -68,6 +72,10 @@
 
 .fa-vuejs {
   color: #3fb27f;
+}
+
+.fa-node-js {
+  color: #7ec729;
 }
 
 /* TIMELINE */

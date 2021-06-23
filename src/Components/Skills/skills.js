@@ -44,6 +44,8 @@ function skills() {
                     <i className="fab fa-bootstrap fa-4x space-content" />
                     <i className="fab fa-react fa-4x space-content" />
                     <i className="fab fa-vuejs fa-4x space-content" />
+                    <i className="fab fa-symfony fa-4x space-content" />
+                    <i className="fab fa-node-js fa-4x space-content" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <i className="fab fa-wordpress fa-4x space-content" />

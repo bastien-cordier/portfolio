@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 function About() {
   return (
     <Fragment>
-      <section id="about" className="page-section bg-sombre">
+      <section id="about" className="page-section bg-about">
         <Container>
           <h2 className="text-center">wh0amI ?</h2>
 
