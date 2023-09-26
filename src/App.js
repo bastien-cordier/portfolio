@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <div className="h-[200vh] bg-[#1a1]"></div>
       </BrowserRouter>
     </div>
   );
