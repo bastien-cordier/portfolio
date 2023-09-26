@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("./Fonts/OTF/Satoshi-Bold.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("./Fonts/OTF/Satoshi-Medium.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("./Fonts/OTF/Satoshi-Light.otf");
+}
+
+$satoshi-bold: "Satoshi-Bold";
+$satoshi-medium: "Satoshi-Medium";
+$satoshi-light: "Satoshi-Light";
+$color-white: #fff;
+$color-black: #000;
+$color-ipssi: #150ed2;
+$color-stockpro: #1bb371;
+$color-ercom: #20335d;
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $satoshi-medium;
+}
+
+h1 {
+  font-family: $satoshi-bold;
+}
