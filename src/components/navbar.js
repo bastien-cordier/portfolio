@@ -71,11 +71,13 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="top-0 left-0 right-0 fixed">
+    <nav className="top-0 left-0 right-0 fixed z-50">
       <div
         className={`md:flex items-center justify-between py-6 ${
           scrollY > 100 ? "md:py-4" : "md:py-6"
-        } md:px-10 px-7 ease-in-out duration-300 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white`}
+        } md:px-10 px-7 ease-in-out duration-300 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white ${
+          menuOpen ? "shadow-none" : "shadow-lg"
+        }`}
       >
         <div className="text-4xl title flex justify-between">
           <a href="/">
@@ -95,8 +97,8 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-5 top-[88px] absolute md:static bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white md:z-auto z-[-1]  w-full md:w-auto md:pl-0 pl-9 transition-all ease-in-out duration-300 ${
-            menuOpen ? "left-0" : "left-[-100%]"
+          className={`md:flex md:items-center md:pb-0 pb-5 left-0 absolute md:static bg-white dark:bg-neutral-900 z-[-1] text-neutral-900 dark:text-white md:z-auto shadow-lg md:shadow-none w-full md:w-auto md:pl-0 pl-9 transition-all ease-in-out duration-300 ${
+            menuOpen ? "top-[88px] " : "top-[-200px]"
           }`}
         >
           {Links.map((link) => (
