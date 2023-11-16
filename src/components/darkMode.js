@@ -1,37 +1,15 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import "../styles/darkMode.scss";
 
-function SwitchDarkMode() {
-  const [theme, setTheme] = useState(() => {
-    if (localStorage) {
-      return localStorage.getItem("theme");
-    }
-    return "dark";
-  });
-
+function SwitchDarkMode({ darkMode, toggleDarkMode }) {
   const switchTheme = () => {
-    if (theme === "dark") {
-      setTheme("light");
-      localStorage.setItem("theme", "light");
-    } else {
-      setTheme("dark");
-      localStorage.setItem("theme", "dark");
-    }
+    toggleDarkMode();
   };
-
-  useEffect(() => {
-    document.body.classList.remove("light", "dark");
-    document.body.classList.add(theme);
-  }, [theme]);
 
   return (
     <div>
       <label className="switch">
-        <input
-          type="checkbox"
-          onChange={switchTheme}
-          checked={theme === "dark"}
-        />
+        <input type="checkbox" onChange={switchTheme} checked={darkMode} />
         <span className="slider"></span>
       </label>
     </div>

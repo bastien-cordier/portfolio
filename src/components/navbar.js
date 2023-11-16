@@ -1,15 +1,31 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import "../styles/navbar.scss";
 import SwitchDarkMode from "./darkMode.js";
 
+const Links = [
+  { name: "About Me", slug: "/#about-me" },
+  { name: "Projects", slug: "/#projects" },
+];
+
 const Navbar = () => {
-  const Links = [
-    { name: "About Me", link: "/#about-me" },
-    { name: "Projects", link: "/#projects" },
-  ];
   const [scrollY, setScrollY] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("theme") === "dark"
+  );
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
+  };
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const toggleDarkMode = () => {
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+    localStorage.setItem("theme", newMode ? "dark" : "light");
   };
 
   useEffect(() => {
@@ -19,32 +35,85 @@ const Navbar = () => {
     };
   }, []);
 
-  const heightNav = scrollY > 100 ? "py-4" : "py-6";
+  useEffect(() => {
+    document.body.classList.remove("light", "dark");
+    document.body.classList.add(darkMode ? "dark" : "light");
+  }, [darkMode]);
+
+  const menuIcon = menuOpen ? (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      className="w-6 h-6 dark:stroke-white stroke-black"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
+  ) : (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      className="w-6 h-6 dark:stroke-white stroke-black"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      />
+    </svg>
+  );
 
   return (
-    <nav className="top-0 left-0 right-0 fixed bg-white dark:bg-dark text-dark dark:text-white z-10">
+    <nav className="top-0 left-0 right-0 fixed">
       <div
-        className={`md:flex items-center justify-between ${heightNav} md:px-10 px-7 ease-in-out duration-300`}
+        className={`md:flex items-center justify-between py-6 ${
+          scrollY > 100 ? "md:py-4" : "md:py-6"
+        } md:px-10 px-7 ease-in-out duration-300 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white`}
       >
-        <div className="text-4xl title">
+        <div className="text-4xl title flex justify-between">
           <a href="/">
             <h1>BC.</h1>
           </a>
+          <div className="md:hidden flex items-center">
+            <span className="mr-3">
+              <SwitchDarkMode
+                darkMode={darkMode}
+                toggleDarkMode={toggleDarkMode}
+              />
+            </span>
+            <button className="menu-icon" onClick={toggleMenu}>
+              {menuIcon}
+            </button>
+          </div>
         </div>
 
-        <ul className="flex">
+        <ul
+          className={`md:flex md:items-center md:pb-0 pb-5 top-[88px] absolute md:static bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white md:z-auto z-[-1]  w-full md:w-auto md:pl-0 pl-9 transition-all ease-in-out duration-300 ${
+            menuOpen ? "left-0" : "left-[-100%]"
+          }`}
+        >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <a
-                href={link.link}
-                className="text-neutral-900 dark:text-white duration-500"
-              >
+            <li
+              key={link.name}
+              className={`md:ml-8 my-4 md:my-0 text-xl nav-link`}
+            >
+              <a href={link.slug} className="text-neutral-900 dark:text-white">
                 {link.name}
               </a>
             </li>
           ))}
           <li className="md:ml-8 md:my-0 my-7 hidden md:block">
-            <SwitchDarkMode />
+            <SwitchDarkMode
+              darkMode={darkMode}
+              toggleDarkMode={toggleDarkMode}
+            />
           </li>
         </ul>
       </div>
