@@ -1,8 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
-import ScrollRevealWrapper from "./components/scrollReaval.js";
+import ScrollRevealWrapper from "../components/scrollReaval.js";
 
-export default function Home() {
+export default function Intro() {
   return (
     <div>
       <section
