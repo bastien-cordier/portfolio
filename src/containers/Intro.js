@@ -18,7 +18,7 @@ export default function Intro() {
       >
         <div className="container">
           <div className="flex md:justify-around flex-col md:flex-row items-center">
-            <div className="w-full md:w-auto">
+            <div className="w-full md:max-w-lg">
               <ScrollRevealWrapperFromLeft>
                 <div className="profile-pic mb-14 md:hidden">
                   <img
@@ -28,26 +28,26 @@ export default function Intro() {
                   />
                 </div>
                 <h1 className="text-4xl md:text-5xl mb-5">
-                  Hi, I'm Bastien{" "}
+                  Hello{" "}
                   <span className="shake" role="img" aria-label="Waving hand">
                     👋🏼
                   </span>
                 </h1>
-                <h3 className="text-2xl sm:text-3xl font-bold mb-2">
-                  I'm a{" "}
+                <h3 className="text-xl sm:text-3xl font-bold">
+                  Je m'appelle Bastien et je suis développeur{" "}
                   <Typed
                     className="jobTyping text-[#B470E8]"
                     strings={[
-                      "Web Developer.",
-                      "FrontEnd Developer.",
-                      "WordPress Developer.",
+                      "Web.",
+                      "Front-End.",
+                      "WordPress.",
+                      "et Intégrateur.",
                     ]}
                     typeSpeed={60}
                     backSpeed={40}
                     loop
                   />
                 </h3>
-                <p className="text-xl">📍 based in Paris, France.</p>
                 <div className="mt-5 flex">
                   <a
                     href="https://github.com/bastien-cordier"

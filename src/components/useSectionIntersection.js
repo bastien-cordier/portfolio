@@ -12,7 +12,7 @@ const useSectionIntersection = (sections) => {
           }
         });
       },
-      { threshold: 0.5 } // Adjust the threshold as needed
+      { threshold: 0.5 }
     );
 
     sections.forEach((section) => {

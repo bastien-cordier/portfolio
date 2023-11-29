@@ -4,9 +4,9 @@ import useSectionIntersection from "./useSectionIntersection.js";
 import "../styles/navbar.scss";
 
 const Links = [
-  { name: "Home", slug: "#intro" },
-  { name: "About Me", slug: "#about-me" },
-  { name: "Projects", slug: "#projects" },
+  { name: "Accueil", slug: "#intro" },
+  { name: "À propos", slug: "#about-me" },
+  { name: "Projets", slug: "#projects" },
 ];
 
 const Navbar = () => {
@@ -110,8 +110,8 @@ const Navbar = () => {
               <a
                 href={link.slug}
                 className={
-                  activeSection === link.slug.slice(1) // Remove the leading "/"
-                    ? "text-neutral-900 dark:text-white opacity-100" // Apply opacity 100 when active
+                  activeSection === link.slug.slice(1)
+                    ? "text-neutral-900 dark:text-white opacity-100"
                     : "text-neutral-900 dark:text-white opacity-50"
                 }
               >
