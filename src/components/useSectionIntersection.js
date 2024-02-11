@@ -16,7 +16,12 @@ const useSectionIntersection = (sections) => {
     );
 
     sections.forEach((section) => {
-      const target = document.querySelector(section.slug);
+      const target = document.querySelector(
+        section.slug.includes("/#")
+          ? `[id="${section.slug.slice(2)}"]`
+          : section.slug
+      );
+
       if (target) {
         sectionObserver.observe(target);
       }

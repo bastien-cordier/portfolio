@@ -4,7 +4,6 @@ import {
   ScrollRevealWrapperFromLeft,
   ScrollRevealWrapperFromRight,
 } from "../components/scrollReaval.js";
-import "../styles/main.scss";
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
@@ -13,35 +12,34 @@ export default function Intro() {
   return (
     <div>
       <section
-        className="h-screen bg-white text-neutral-800 dark:bg-neutral-900 dark:text-white flex items-center"
+        className="h-screen bg-white text-black dark:bg-black dark:text-white flex items-center overflow-x-hidden"
         id="intro"
       >
         <div className="container">
           <div className="flex md:justify-around flex-col md:flex-row items-center">
             <div className="w-full md:max-w-lg">
               <ScrollRevealWrapperFromLeft>
-                <div className="profile-pic mb-14 md:hidden">
+                <div className="mb-14 md:hidden">
                   <img
                     src="/profile.png"
                     alt="Profile pic"
-                    className="mx-auto w-40"
+                    className="mx-auto w-64"
                   />
                 </div>
                 <h1 className="text-4xl md:text-5xl mb-5">
-                  Hello{" "}
+                  Hi, I'm Bastien{" "}
                   <span className="shake" role="img" aria-label="Waving hand">
                     👋🏼
                   </span>
                 </h1>
-                <h3 className="text-xl sm:text-3xl font-bold">
-                  Je m'appelle Bastien et je suis développeur{" "}
+                <h3 className="text-xl sm:text-3xl">
+                  I'm a{" "}
                   <Typed
-                    className="jobTyping text-[#B470E8]"
+                    className="text-purple dark:text-yellow"
                     strings={[
-                      "Web.",
-                      "Front-End.",
-                      "WordPress.",
-                      "et Intégrateur.",
+                      "Web Developer.",
+                      "FrontEnd Developer.",
+                      "WordPress Developer.",
                     ]}
                     typeSpeed={60}
                     backSpeed={40}

@@ -22,7 +22,7 @@ $satoshi-medium: "Satoshi-Medium";
 $satoshi-light: "Satoshi-Light";
 $color-white: #fff;
 $color-black: #000;
-$color-ipssi: #150ed2;
+$color-ipssi: #1428d2;
 $color-stockpro: #1bb371;
 $color-ercom: #20335d;
 
@@ -33,14 +33,11 @@ $color-ercom: #20335d;
 
 body {
   font-family: $satoshi-medium;
+  overflow-x: hidden;
 }
 
 h1 {
   font-family: $satoshi-bold;
-}
-
-p {
-  font-family: $satoshi-light;
 }
 
 .container {

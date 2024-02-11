@@ -1,19 +1,21 @@
 import React from "react";
 import "./App.scss";
+import "./styles/main.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar.js";
-import Intro from "./containers/home.js";
-import AboutMe from "./containers/aboutMe.js";
-import Projects from "./containers/projects.js";
+import Homepage from "./pages/Homepage.js";
+import ProjectPage from "./pages/projectPage.js";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar />
-      <Intro />
-      <AboutMe />
-      <Projects />
-    </div>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/:projectName" element={<ProjectPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
